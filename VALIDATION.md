@@ -36,3 +36,5 @@ The original builder specification was the input and is not included in the dist
 ## Installation documentation follow-up
 
 The README now documents Claude Code, Codex and other compatible agents, using official host documentation for install paths and invocation. All four Bash blocks passed `bash -n`. The shared copy step was run against a temporary destination containing spaces: the installed folder matched the complete source package, and a second run refused to overwrite it. No personal agent installation was changed. This verifies the copy procedure, not live discovery or execution in each agent.
+
+The recommended installation now uses the Skills CLI. Running `npx --yes skills add normieg/Readme-gen --skill readme-gen --list` with telemetry disabled successfully discovered exactly one skill, `readme-gen`, from the published repository. This was a discovery check, not an agent installation. Manual download/copy remains an alternative.

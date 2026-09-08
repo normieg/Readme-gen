@@ -6,6 +6,32 @@ Repository truth takes priority over technical clarity, visual polish and market
 
 ## Installation
 
+### Quick install (recommended)
+
+With Node.js/npm and Git available, run this from the project you want to document:
+
+```bash
+npx skills add normieg/Readme-gen --skill readme-gen
+```
+
+Choose your agent in the installer. It downloads the skill and sets up the appropriate agent directory; no manual clone or copy is needed. The [Skills CLI](https://github.com/vercel-labs/skills#install-a-skill) supports Claude Code, Codex and other agents.
+
+To install for both Claude Code and Codex across all your projects:
+
+```bash
+npx skills add normieg/Readme-gen --skill readme-gen --agent claude-code codex --global
+```
+
+Omit `--global` for a project-only installation. To preview the available skill without installing it:
+
+```bash
+npx skills add normieg/Readme-gen --skill readme-gen --list
+```
+
+After installation, use `/readme-gen` in Claude Code or `$readme-gen` in Codex with your request. See [Use and verify](#use-and-verify) for a first audit prompt.
+
+### Manual installation (alternative)
+
 Install the same `readme-gen/` folder in your agent's skills directory. The package contains Markdown instructions and supporting files, with no dependency on a particular model, paid API, MCP server or larger skill collection. Skill discovery and invocation depend on the agent application; a model or chat interface without skill support cannot automatically install it.
 
 ### Download the skill
@@ -87,7 +113,9 @@ For an agent without native skills, give it the complete skill folder and explic
 
 ### Update an existing installation
 
-Run `git pull --ff-only` in your downloaded `Readme-gen` checkout. Compare or back up any edits to your installed copy, move the previous installation outside the agent's scanned skills directories, then repeat the copy step. The instructions intentionally refuse to overwrite an existing installation.
+For Skills CLI installations, run `npx skills update readme-gen` to update this skill. Preserve any local customizations first. See the [CLI update reference](https://github.com/vercel-labs/skills#skills-update).
+
+For manual installations, run `git pull --ff-only` in your downloaded `Readme-gen` checkout. Compare or back up any edits to your installed copy, move the previous installation outside the agent's scanned skills directories, then repeat the copy step. The copy instructions intentionally refuse to overwrite an existing installation.
 
 ## Package contents
 
