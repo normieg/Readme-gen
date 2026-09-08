@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+  <title id="title">Fieldboard illustrative interface mockup</title>
+  <desc id="desc">A fictional task board with Planned, In progress and Done columns. Tasks include confirming a site visit, inspecting equipment and sharing visit notes. This is not a screenshot of a running product.</desc>
+  <rect width="960" height="480" rx="16" fill="#f1f5f9"/>
+  <path d="M16 0H944Q960 0 960 16V80H0V16Q0 0 16 0" fill="#172d36"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="32" y="49" font-size="26" font-weight="700" fill="#ffffff">Fieldboard</text>
+    <text x="706" y="47" font-size="14" fill="#d2e4e9">INTERFACE MOCKUP</text>
+    <text x="32" y="127" font-size="23" font-weight="650" fill="#172d36">Field visits</text>
+    <text x="32" y="152" font-size="14" fill="#475569">Shared work for the operations team</text>
+    <rect x="28" y="177" width="285" height="261" rx="10" fill="#e2e8f0"/>
+    <rect x="337" y="177" width="285" height="261" rx="10" fill="#e2e8f0"/>
+    <rect x="646" y="177" width="285" height="261" rx="10" fill="#e2e8f0"/>
+    <text x="46" y="210" font-size="16" font-weight="650" fill="#172d36">Planned · 1</text>
+    <text x="355" y="210" font-size="16" font-weight="650" fill="#172d36">In progress · 1</text>
+    <text x="664" y="210" font-size="16" font-weight="650" fill="#172d36">Done · 1</text>
+    <rect x="42" y="228" width="257" height="138" rx="8" fill="#ffffff"/>
+    <rect x="351" y="228" width="257" height="138" rx="8" fill="#ffffff"/>
+    <rect x="660" y="228" width="257" height="138" rx="8" fill="#ffffff"/>
+    <text x="57" y="258" font-size="16" font-weight="600" fill="#172d36">Confirm site visit</text>
+    <text x="57" y="287" font-size="14" fill="#475569">Review access instructions</text>
+    <text x="57" y="340" font-size="13" fill="#475569">Alex · due Thursday</text>
+    <text x="366" y="258" font-size="16" font-weight="600" fill="#172d36">Inspect equipment</text>
+    <text x="366" y="287" font-size="14" fill="#475569">Record condition and notes</text>
+    <text x="366" y="340" font-size="13" fill="#475569">Sam · due today</text>
+    <text x="675" y="258" font-size="16" font-weight="600" fill="#172d36">Share visit notes</text>
+    <text x="675" y="287" font-size="14" fill="#475569">Summary added to the task</text>
+    <text x="675" y="340" font-size="13" fill="#475569">Jo · completed</text>
+    <text x="32" y="463" font-size="12" fill="#475569">Fictional example for the readme-gen skill</text>
+  </g>
+</svg>
