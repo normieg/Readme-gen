@@ -1,8 +1,18 @@
-# readme-gen
+# AI README Generator Skill
 
-A standalone Agent Skill for creating, redesigning, auditing and updating GitHub READMEs from repository evidence. Designed for Claude Code, Codex, and other agents that support the [Agent Skills format](https://agentskills.io/home).
+Create, audit, and improve professional GitHub READMEs with an AI agent that verifies every claim against the repository.
 
-Repository truth takes priority over technical clarity, visual polish and marketing. The skill supports applications, libraries, CLIs, APIs, monorepos, frameworks and smaller projects. It includes technology badges, Mermaid architecture, setup, testing and deployment guidance without assuming those capabilities exist in every repository.
+`readme-gen` is a repository-aware documentation skill for Codex, Claude Code, and other tools that support the [Agent Skills format](https://agentskills.io/home). It detects the project type and documented technology stack, then produces accurate GitHub-flavored Markdown with practical setup instructions, badges, Mermaid architecture diagrams, testing guidance, and deployment details when the repository supports them.
+
+**Repository truth > technical clarity > visual polish > marketing.**
+
+## What it does
+
+- Creates a complete README for applications, libraries, CLIs, APIs, monorepos, frameworks, and smaller projects.
+- Audits existing documentation against source code, manifests, configuration, tests, CI, and deployment files.
+- Redesigns or updates a README without discarding accurate project identity, credits, warnings, or caveats.
+- Adds evidence-backed technology badges, Mermaid diagrams, setup steps, testing instructions, and deployment guidance.
+- Works with Codex, Claude Code, and other Agent Skills-compatible coding agents.
 
 ## Installation
 
