@@ -32,3 +32,7 @@ The instructions were reviewed for audit-only behavior, narrow-edit preservation
 No application commands from the fictional example were run. No end-to-end skill execution across real repositories, GitHub-rendered README preview, Mermaid parser validation or cross-agent installation test was performed. The browser's URL policy blocked opening the local SVG; no browser-policy workaround was attempted. Local badge responses and a valid skill manifest do not prove those behaviors.
 
 The original builder specification was the input and is not included in the distributed package. Templates intentionally contain authoring placeholders; the entry point explicitly requires removing them from generated project READMEs unless the user asks for a reusable skeleton.
+
+## Installation documentation follow-up
+
+The README now documents Claude Code, Codex and other compatible agents, using official host documentation for install paths and invocation. All four Bash blocks passed `bash -n`. The shared copy step was run against a temporary destination containing spaces: the installed folder matched the complete source package, and a second run refused to overwrite it. No personal agent installation was changed. This verifies the copy procedure, not live discovery or execution in each agent.
